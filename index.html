@@ -21,10 +21,14 @@
       <!-- Galeria de Fotos -->
       <div class="photo-gallery">
         <h2>Conteúdo Exclusivo 🔥</h2>
-        <div class="gallery-images">
-          <img src="Maravel/1.jpg" alt="Foto 1" class="gallery-image">
-          <img src="Maravel/2.jpg" alt="Foto 2" class="gallery-image">
-          <img src="Maravel/3.jpg" alt="Foto 3" class="gallery-image">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <img src="Maravel/1.jpg" alt="Foto 1" class="carousel-item active">
+            <img src="Maravel/2.jpg" alt="Foto 2" class="carousel-item">
+            <img src="Maravel/3.jpg" alt="Foto 3" class="carousel-item">
+          </div>
+          <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+          <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
         </div>
       </div>
 
